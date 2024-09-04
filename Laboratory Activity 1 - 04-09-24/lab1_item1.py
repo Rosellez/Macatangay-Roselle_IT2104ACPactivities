@@ -10,7 +10,7 @@ print("--------------------")
 print(f"Year Released: ", year)
 print(f"Genre: ", genre)
 print(f"Album: ", album)
-print(f"Title: ", title)
+print(f'Title: "{title}"')
 print(f"Artist: ", artist)
 
      
