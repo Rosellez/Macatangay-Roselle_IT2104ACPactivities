@@ -1,4 +1,4 @@
-<img width="990" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
+<img width="990" height="700" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
 
 ------
 
@@ -57,33 +57,33 @@ Furfect Supplies: A Pet Product Inventory System is a software solution develope
 
 ### Core Python Concepts:
 **Core Functionality**
-> Manage Inventory:
+>*Manage Inventory:*
 Add, view, update, and remove products.
 Provide low-stock warnings.
-> Track Sales:
+>*Track Sales:*
 Record sales transactions with product details, quantities, and timestamps.
-> Facilitate Purchases:
+>*Facilitate Purchases:*
 Allow customers to build a cart and complete purchases, updating inventory in real time.
 
 **Data Handling**
->Database:
+>*Database:*
 Uses SQLite (sqlite3) for persistent data storage.
->Tables:
+>*Tables:*
 products: Stores product information.
 sales: Records sales transactions.
->CRUD Operations:
+>*CRUD Operations:*
 Create: Insert new products or sales records.
 Read: Retrieve inventory and sales data.
 Update: Adjust stock levels or product details.
 Delete: Remove products from the inventory.
 
 **Error Handling**
->User Input Validation:
+>*User Input Validation:*
 Ensures valid product IDs and quantities when adding/updating stock or processing purchases.
 Guards against invalid data types (e.g., non-numeric input for price/quantity).
->Database Integrity:
+>*Database Integrity:*
 Uses foreign keys to ensure consistency between products and sales.
->Graceful Failure:
+>*Graceful Failure:*
 Handles invalid inputs (e.g., product ID not found) with error messages instead of crashes.
 
 **Modular Code**
@@ -192,37 +192,37 @@ Backup the database periodically to avoid data loss.
 
    **ADD PRODUCT**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/ADD%20PRODUCT.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/ADD%20PRODUCT.png">
 </p>
 
    **VIEW INVENTORY**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20INVENTORY.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20INVENTORY.png">
 </p>
 
    **REMOVE PRODUCT**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/REMOVE%20PRODUCT.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/REMOVE%20PRODUCT.png">
 </p>
 
   **UPDATE STOCK**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/UPDATE%20STOCK.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/UPDATE%20STOCK.png">
 </p>
 
   **PURCHASE PRODUCT**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/PURCHASE%20PRODUCT.png">
+  <img width="900" height="550" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/PURCHASE%20PRODUCT.png">
 </p>
 
    **VIEW SALE**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20SALE.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20SALE.png">
 </p>
 
  **EXIT**
 <p align="center">
-  <img width="900" height="450" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/EXIT.png">
+  <img width="900" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/EXIT.png">
 </p>
 
 
