@@ -291,7 +291,7 @@ def main_menu():
 
     while True:
         # Display the main menu options.
-        print("\n\n\t\t\t\t=== Smart Inventory Management System ===\n")
+        print("\n\n\t\t\t\t=== Pet Inventory Management System ===\n")
         print("\t\t\t\t\t1. Add Product")
         print("\t\t\t\t\t2. View Inventory")
         print("\t\t\t\t\t3. Remove Product")
