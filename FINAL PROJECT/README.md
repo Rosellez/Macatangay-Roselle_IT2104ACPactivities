@@ -1,4 +1,4 @@
-<img width="500" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
+<img width="990" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
 
 ------
 
@@ -136,11 +136,11 @@ The SQLite database can be migrated to more advanced systems like MySQL or Postg
 ## III. Integration with SDG 12
 Furfect Supplies supports Sustainable Development Goal 12 by:
 
-*Minimizing Waste:*
+**Minimizing Waste:**
 Tracks inventory levels, ensuring stock is replenished appropriately, reducing overproduction and waste.
-*Promoting Efficiency:*
+**Promoting Efficiency:**
 Simplifies inventory and sales management, encouraging responsible resource use.
-*Data-Driven Decisions:*
+**Data-Driven Decisions:**
 Provides data on sales trends, enabling businesses to stock items that align with demand, minimizing surplus.
 
 ------
@@ -154,9 +154,8 @@ Provides data on sales trends, enabling businesses to stock items that align wit
 - **SQLite**: Pre-installed with Python, no additional installation required.  
 
 ### Installation
-1. `Clone this repository`:
-   git clone https://github.com/yourusername/Furfect_Supplies.git
-   cd Furfect_Supplies
+1. `Clone this code`:
+   git clone https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/Furfect%20Supplies.py
    
 2. `Install Dependencies`:
 No external libraries are required; sqlite3 and datetime are included with Python.
