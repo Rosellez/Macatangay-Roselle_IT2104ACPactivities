@@ -1,5 +1,6 @@
-<img width="990" height="700" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
-
+<p align="center">
+<img width="500" height="500" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/SYSTEM%20LOGO.png">
+</p>
 ------
 
 ## Table of Contents
