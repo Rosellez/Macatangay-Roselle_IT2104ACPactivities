@@ -58,72 +58,72 @@ Furfect Supplies: A Pet Product Inventory System is a software solution develope
 
 ### Core Python Concepts:
 **Core Functionality**
->*Manage Inventory:*
+- *Manage Inventory:*
 Add, view, update, and remove products.
 Provide low-stock warnings.
->*Track Sales:*
+- *Track Sales:*
 Record sales transactions with product details, quantities, and timestamps.
->*Facilitate Purchases:*
+- *Facilitate Purchases:*
 Allow customers to build a cart and complete purchases, updating inventory in real time.
 
 **Data Handling**
->*Database:*
+- *Database:*
 Uses SQLite (sqlite3) for persistent data storage.
->*Tables:*
+- *Tables:*
 products: Stores product information.
 sales: Records sales transactions.
->*CRUD Operations:*
+- *CRUD Operations:*
 Create: Insert new products or sales records.
 Read: Retrieve inventory and sales data.
 Update: Adjust stock levels or product details.
 Delete: Remove products from the inventory.
 
 **Error Handling**
->*User Input Validation:*
+- *User Input Validation:*
 Ensures valid product IDs and quantities when adding/updating stock or processing purchases.
 Guards against invalid data types (e.g., non-numeric input for price/quantity).
->*Database Integrity:*
+- *Database Integrity:*
 Uses foreign keys to ensure consistency between products and sales.
->*Graceful Failure:*
+- *Graceful Failure:*
 Handles invalid inputs (e.g., product ID not found) with error messages instead of crashes.
 
 **Modular Code**
->*Functions:*
+- *Functions:*
 Each task (e.g., adding a product, viewing inventory, purchasing products) is encapsulated in a separate function.
 Promotes reusability and improves readability.
->*Initialization:*
+- *Initialization:*
 initialize_database() ensures the database is set up before other operations.
->*Menu System:*
+- *Menu System:*
 Centralized main_menu() function calls other functions based on user choices.
 
 **Abstraction**
->*Hides Complexity:*
+- *Hides Complexity:*
 Users interact with a menu-driven interface without needing to understand how the database works internally.
->*Encapsulation of Tasks:*
+- *Encapsulation of Tasks:*
 Database operations (e.g., SQL queries) and business logic are handled within individual functions.
 
 **Encapsulation**
->*Implemented Through Functions:*
+- *Implemented Through Functions:*
 Each function encapsulates specific behavior, such as interacting with the database, updating stock, or recording sales.
->*Scope Control:*
+- *Scope Control:*
 Variables used within functions are local, ensuring they don’t interfere with other parts of the program.
 
 **Control Flow**
->*Decision Making:*
+- *Decision Making:*
 if-elif-else constructs are used for menu navigation and handling user choices.
->*Loops:*
+- *Loops:*
 while loops manage the main menu and allow users to repeatedly interact with the program until they choose to exit.
->*Exception Handling:*
+- *Exception Handling:*
 Indirectly present by prompting users for correct input and ensuring valid operations on the database.
 
 **Optional Features**
->*Sales Reporting:*
+- *Sales Reporting:*
 View all sales records, including product names, quantities, and dates.
->*Low-Stock Alerts:*
+- *Low-Stock Alerts:*
 Highlight products that are at or below their reorder levels.
->*Checkout System:*
+- *Checkout System:*
 Simulates a real-world shopping cart with payment and change calculation.
->*Database Flexibility:*
+- *Database Flexibility:*
 The SQLite database can be migrated to more advanced systems like MySQL or PostgreSQL for larger-scale use.
 
 
@@ -137,12 +137,14 @@ The SQLite database can be migrated to more advanced systems like MySQL or Postg
 ## III. Integration with SDG 12
 Furfect Supplies supports Sustainable Development Goal 12 by:
 
-**Minimizing Waste:**
-Tracks inventory levels, ensuring stock is replenished appropriately, reducing overproduction and waste.
-**Promoting Efficiency:**
-Simplifies inventory and sales management, encouraging responsible resource use.
-**Data-Driven Decisions:**
-Provides data on sales trends, enabling businesses to stock items that align with demand, minimizing surplus.
+ - **Efficient Resource Management:**
+The system enables inventory management by tracking product stock, sales, and reorder levels. This ensures optimal stock utilization, minimizing waste and overproduction.
+ - **Sustainable Business Practices:**
+By automating stock tracking and purchase logging, it helps businesses streamline operations, making resource use more efficient and sustainable.
+ - **Supporting Responsible Consumption:**
+Features like low-stock alerts and precise sales recording ensure that the products align with demand, avoiding unnecessary surplus or shortages.
+
+This falls under SDG 12: Responsible Consumption and Production.
 
 ------
 
