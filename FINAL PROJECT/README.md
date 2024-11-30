@@ -185,7 +185,7 @@ Backup the database periodically to avoid data loss.
 
   **WELCOME PAGE**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/WELCOME%20PAGE.png">
+  <img width="700" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/WELCOME%20PAGE.png">
 </p>
 
    **MENU DISPLAY**
@@ -200,32 +200,32 @@ Backup the database periodically to avoid data loss.
 
    **VIEW INVENTORY**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20INVENTORY.png">
+  <img width="600" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20INVENTORY.png">
 </p>
 
    **REMOVE PRODUCT**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/REMOVE%20PRODUCT.png">
+  <img width="600" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/REMOVE%20PRODUCT.png">
 </p>
 
   **UPDATE STOCK**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/UPDATE%20STOCK.png">
+  <img width="600" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/UPDATE%20STOCK.png">
 </p>
 
   **PURCHASE PRODUCT**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/PURCHASE%20PRODUCT.png">
+  <img width="600" height="600" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/PURCHASE%20PRODUCT.png">
 </p>
 
    **VIEW SALE**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20SALE.png">
+  <img width="600" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/VIEW%20SALE.png">
 </p>
 
  **EXIT**
 <p align="center">
-  <img width="500" height="400" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/EXIT.png">
+  <img width="400" height="200" src="https://github.com/Rosellez/Macatangay-Roselle_IT2104ACPactivities/blob/main/FINAL%20PROJECT/EXIT.png">
 </p>
 
 
