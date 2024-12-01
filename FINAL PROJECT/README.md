@@ -101,14 +101,19 @@ Centralized main_menu() function calls other functions based on user choices.
 Users interact with a menu-driven interface without needing to understand how the database works internally.
 - *Encapsulation of Tasks:*
 Database operations (e.g., SQL queries) and business logic are handled within individual functions.
-- The program's high-level functions (`add_product`, `purchase_products`, `view_sales`) abstract the underlying database operations (`SQL queries`). These could be further abstracted into class methods with clear responsibilities.
+- The `InventoryManager` and `SalesManager` classes abstract the complexities of managing inventory and sales, respectively. For example:
+- Adding a product (`add_product`) abstracts the SQL logic for inserting data into the database.
+- Viewing inventory (`view_inventory`) abstracts the logic of retrieving and displaying data from the database.
+- The `Product` class represents a product's data in an abstract way, separating it from how it’s stored in the database.
 
 **Encapsulation**
 - *Implemented Through Functions:*
 Each function encapsulates specific behavior, such as interacting with the database, updating stock, or recording sales.
 - *Scope Control:*
 Variables used within functions are local, ensuring they don’t interfere with other parts of the program.
-- In the code functions like `add_product`, `remove_product`, and `update_stock` work on the `products` database table. These operations could be encapsulated in a `Product` class where attributes (e.g., `name`, `price`, `stock`) and methods (e.g., `add`, `update`, `delete`) are grouped.
+- Classes like `Product`, `Database`, `InventoryManager`, and `SalesManager` encapsulate their respective data and methods.
+- The `Database` class hides database connection and initialization logic from other parts of the program, exposing only necessary methods like `get_connection`.
+- Access to the `products` and `sales` tables is managed through the Database instance rather than exposing the raw database connection to other parts of the system.
 
 **Control Flow**
 - *Decision Making:*
