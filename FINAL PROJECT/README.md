@@ -70,13 +70,13 @@ Allow customers to build a cart and complete purchases, updating inventory in re
 - *Database:*
 Uses SQLite (sqlite3) for persistent data storage.
 - *Tables:*
-products: Stores product information.
-sales: Records sales transactions.
+`products`: Stores product information.
+`sales`: Records sales transactions.
 - *CRUD Operations:*
-Create: Insert new products or sales records.
-Read: Retrieve inventory and sales data.
-Update: Adjust stock levels or product details.
-Delete: Remove products from the inventory.
+`Create`: Insert new products or sales records.
+`Read`: Retrieve inventory and sales data.
+`Update`: Adjust stock levels or product details.
+`Delete`: Remove products from the inventory.
 
 **Error Handling**
 - *User Input Validation:*
@@ -101,12 +101,14 @@ Centralized main_menu() function calls other functions based on user choices.
 Users interact with a menu-driven interface without needing to understand how the database works internally.
 - *Encapsulation of Tasks:*
 Database operations (e.g., SQL queries) and business logic are handled within individual functions.
+- The program's high-level functions (`add_product`, `purchase_products`, `view_sales`) abstract the underlying database operations (`SQL queries`). These could be further abstracted into class methods with clear responsibilities.
 
 **Encapsulation**
 - *Implemented Through Functions:*
 Each function encapsulates specific behavior, such as interacting with the database, updating stock, or recording sales.
 - *Scope Control:*
 Variables used within functions are local, ensuring they don’t interfere with other parts of the program.
+- In the code functions like `add_product`, `remove_product`, and `update_stock` work on the `products` database table. These operations could be encapsulated in a `Product` class where attributes (e.g., `name`, `price`, `stock`) and methods (e.g., `add`, `update`, `delete`) are grouped.
 
 **Control Flow**
 - *Decision Making:*
