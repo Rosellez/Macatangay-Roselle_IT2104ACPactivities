@@ -151,7 +151,7 @@ By automating stock tracking and purchase logging, it helps businesses streamlin
  - **Supporting Responsible Consumption:**
 Features like low-stock alerts and precise sales recording ensure that the products align with demand, avoiding unnecessary surplus or shortages.
 
-This falls under SDG 12: Responsible Consumption and Production.
+This falls under SDG 8: Decent Work and Economic Growth and SDG 12: Responsible Consumption and Production
 
 ------
 
